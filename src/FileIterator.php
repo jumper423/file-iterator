@@ -1,6 +1,8 @@
 <?php
 
-class FileIterator implements SeekableIterator
+namespace jumper423;
+
+class FileIterator implements \SeekableIterator
 {
     private $position;
 
@@ -17,7 +19,7 @@ class FileIterator implements SeekableIterator
     public function seek($position)
     {
         if ($position < 0 || $position >= $this->file->getCount()) {
-            throw new OutOfBoundsException("invalid seek position ($position)");
+            throw new \OutOfBoundsException("invalid seek position ($position)");
         }
         $this->position = $position;
     }

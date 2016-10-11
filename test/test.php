@@ -1,12 +1,11 @@
 <?php
 
-include_once "../src/File.php";
-include_once "../src/FileIterator.php";
+require_once "../vendor/autoload.php";
 
-$fileIterator = new FileIterator(__DIR__ . '\file');
+$fileIterator = new \jumper423\FileIterator(__DIR__ . '\file');
 $fileIterator->rewind();
 $fileIterator->next();
 $fileIterator->next();
-$fileIterator->seek(5001);
+$fileIterator->seek(2);
 $fileIterator->next();
 echo $fileIterator->current();

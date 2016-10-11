@@ -1,5 +1,7 @@
 <?php
 
+namespace jumper423;
+
 class File
 {
     private static $instances = [];
