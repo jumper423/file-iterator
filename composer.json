@@ -1,8 +1,14 @@
 {
-  "name": "jumper423/embria3",
-  "description": "File",
+  "name": "jumper423/file-iterator",
+  "description": "file iterator",
+  "keywords": ["file", "iterator", "big", "SeekableIterator"],
+  "homepage": "https://github.com/jumper423/file-iterator",
   "type": "library",
-  "license": "Apache 2.0",
+  "license": "Apache License 2.0",
+  "support": {
+    "issues": "https://github.com/jumper423/file-iterator/issues?state=open",
+    "source": "https://github.com/jumper423/file-iterator"
+  },
   "authors": [
     {
       "name": "Vladislav Pasechnik",
