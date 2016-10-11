@@ -39,13 +39,13 @@ class File
 
     public function getString(int $index) {
         if ($index >= $this->getCount()) {
-            throw new Exception('Not');
+            throw new \Exception('Not');
         }
         if ($index === 0){
             fseek($this->handle, 0);
         } else {
             fseek($this->handle, $this->strings[$index - 1]);
         }
-        return fgets($this->handle);
+        return rtrim(fgets($this->handle), "\r\n");
     }
 }
