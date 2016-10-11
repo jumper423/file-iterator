@@ -1,5 +1,8 @@
 File Iterator
 =============
+[![Build Status](https://travis-ci.org/jumper423/file-iterator.svg?branch=master)](https://travis-ci.org/jumper423/file-iterator)
+
+
 
 Installation
 ----------
