@@ -46,6 +46,6 @@ class FileIterator implements \SeekableIterator
 
     public function valid()
     {
-        return $this->position >= $this->file->getCount();
+        return $this->position < $this->file->getCount();
     }
 }
