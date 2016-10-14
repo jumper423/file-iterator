@@ -1,7 +1,7 @@
 File Iterator
 =============
-[![Build Status](https://travis-ci.org/jumper423/file-iterator.svg?branch=master)](https://travis-ci.org/jumper423/file-iterator)
 [![PHP version](https://badge.fury.io/ph/jumper423%2Ffile-iterator.svg)](https://badge.fury.io/ph/jumper423%2Ffile-iterator)
+[![Build Status](https://travis-ci.org/jumper423/file-iterator.svg?branch=master)](https://travis-ci.org/jumper423/file-iterator)
 
 
 Installation
