@@ -18,7 +18,7 @@ class File
     private $strings = [];
     private $count;
 
-    public function __construct(string $path)
+    private function __construct(string $path)
     {
         $this->count = 0;
         $this->handle = fopen($path, "r");
@@ -46,6 +46,6 @@ class File
         } else {
             fseek($this->handle, $this->strings[$index - 1]);
         }
-        return rtrim(fgets($this->handle), "\r\n");
+        return rtrim(fgets($this->handle), PHP_EOL);
     }
 }
